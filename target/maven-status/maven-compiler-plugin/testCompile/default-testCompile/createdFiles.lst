@@ -1,0 +1,6 @@
+objectPage\LoginPage.class
+definitionSteps\Steps.class
+objectPage\ItemPage.class
+runners\Runner.class
+objectPage\HomePage.class
+objectPage\ProductPage.class
