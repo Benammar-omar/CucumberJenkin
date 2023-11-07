@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11680000000,
+              "duration": 10558000000,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 167000000,
+              "duration": 156000000,
               "status": "passed"
             },
             "line": 6,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 3334000000,
+              "duration": 2147000000,
               "status": "passed"
             },
             "line": 7,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 2530000000,
+              "duration": 2434000000,
               "status": "passed"
             },
             "line": 9,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 2117000000,
+              "duration": 2457000000,
               "status": "passed"
             },
             "line": 10,
@@ -93,7 +93,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 11,
@@ -106,11 +105,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T09:58:18.825Z",
+        "start_timestamp": "2023-11-07T15:52:17.242Z",
         "before": [
           {
             "result": {
-              "duration": 1637000000,
+              "duration": 1816000000,
               "status": "passed"
             },
             "match": {
@@ -137,7 +136,7 @@
         "steps": [
           {
             "result": {
-              "duration": 731000000,
+              "duration": 977000000,
               "status": "passed"
             },
             "line": 14,
@@ -149,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 52000000,
+              "duration": 44000000,
               "status": "passed"
             },
             "line": 15,
@@ -187,11 +186,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-11-07T09:58:41.122Z",
+        "start_timestamp": "2023-11-07T15:52:37.894Z",
         "before": [
           {
             "result": {
-              "duration": 1193000000,
+              "duration": 1219000000,
               "status": "passed"
             },
             "match": {
@@ -218,7 +217,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4492000000,
+              "duration": 1800000000,
               "status": "passed"
             },
             "line": 5,
@@ -230,7 +229,7 @@
           },
           {
             "result": {
-              "duration": 153000000,
+              "duration": 157000000,
               "status": "passed"
             },
             "line": 6,
@@ -252,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 1358000000,
+              "duration": 1693000000,
               "status": "passed"
             },
             "line": 7,
@@ -264,7 +263,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -282,11 +280,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T09:58:48.328Z",
+        "start_timestamp": "2023-11-07T15:52:42.773Z",
         "before": [
           {
             "result": {
-              "duration": 1212000000,
+              "duration": 1226000000,
               "status": "passed"
             },
             "match": {
@@ -313,7 +311,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2300000000,
+              "duration": 4997000000,
               "status": "passed"
             },
             "line": 15,
@@ -325,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 147000000,
+              "duration": 139000000,
               "status": "passed"
             },
             "line": 16,
@@ -347,7 +345,7 @@
           },
           {
             "result": {
-              "duration": 1289000000,
+              "duration": 695000000,
               "status": "passed"
             },
             "line": 17,
@@ -359,6 +357,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 18,
@@ -384,6 +383,164 @@
     "tags": [
       {
         "name": "@log",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3580000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "definitionSteps.Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters benammaromar0@gmail.com and 00112233",
+            "match": {
+              "arguments": [
+                {
+                  "val": "benammaromar0@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "00112233",
+                  "offset": 40
+                }
+              ],
+              "location": "definitionSteps.Steps.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1813000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "definitionSteps.Steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user on the website",
+            "match": {
+              "location": "definitionSteps.Steps.user_on_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T15:52:49.835Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1201000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitionSteps.Steps.browserSetup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Navigating and Selecting Products",
+        "description": "",
+        "id": "search-for-a-product-on-tunisiatech;navigating-and-selecting-products",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitionSteps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4693000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on specific item",
+            "match": {
+              "location": "definitionSteps.Steps.the_user_clicks_on_specific_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3066000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user selects a specific product",
+            "match": {
+              "location": "definitionSteps.Steps.the_user_selects_a_specific_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should be on the product page",
+            "match": {
+              "location": "definitionSteps.Steps.the_user_should_be_on_the_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@src"
+          }
+        ]
+      }
+    ],
+    "name": "Search for a product on TunisiaTech",
+    "description": "",
+    "id": "search-for-a-product-on-tunisiatech",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/searchProduct.feature",
+    "tags": [
+      {
+        "name": "@src",
         "type": "Tag",
         "location": {
           "line": 1,

@@ -323,4 +323,106 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/Features/searchProduct.feature");
+formatter.feature({
+  "name": "Search for a product on TunisiaTech",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@src"
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user is on login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "definitionSteps.Steps.user_is_on_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters benammaromar0@gmail.com and 00112233",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "definitionSteps.Steps.user_enters_email_and_password(java.lang.String,java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "clicks on login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "definitionSteps.Steps.clicks_on_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user on the website",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "definitionSteps.Steps.user_on_the_website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Navigating and Selecting Products",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@src"
+    }
+  ]
+});
+formatter.step({
+  "name": "the user clicks on specific item",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "definitionSteps.Steps.the_user_clicks_on_specific_item()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user selects a specific product",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "definitionSteps.Steps.the_user_selects_a_specific_product()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user should be on the product page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "definitionSteps.Steps.the_user_should_be_on_the_product_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });
