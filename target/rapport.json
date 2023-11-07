@@ -1,0 +1,185 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4421000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "definitionSteps.Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters benammaromar0@gmail.com and 00112233",
+            "match": {
+              "arguments": [
+                {
+                  "val": "benammaromar0@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "00112233",
+                  "offset": 40
+                }
+              ],
+              "location": "definitionSteps.Steps.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1169000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "definitionSteps.Steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user on the website",
+            "match": {
+              "location": "definitionSteps.Steps.user_on_the_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2371000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on specific item",
+            "match": {
+              "location": "definitionSteps.Steps.the_user_clicks_on_specific_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1865000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user selects a specific product",
+            "match": {
+              "location": "definitionSteps.Steps.the_user_selects_a_specific_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should be on the product page",
+            "match": {
+              "location": "definitionSteps.Steps.the_user_should_be_on_the_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T07:50:59.453Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1661000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitionSteps.Steps.browserSetup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Add a Product to the Cart",
+        "description": "",
+        "id": "adding-a-product-to-the-cart;add-a-product-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitionSteps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 618000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user add the product to the Cart",
+            "match": {
+              "location": "definitionSteps.Steps.the_user_add_the_product_to_the_Cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the cart should contain the added product",
+            "match": {
+              "location": "definitionSteps.Steps.the_cart_should_contain_the_added_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add"
+          }
+        ]
+      }
+    ],
+    "name": "Adding a Product to the Cart",
+    "description": "",
+    "id": "adding-a-product-to-the-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/addToCart.feature",
+    "tags": [
+      {
+        "name": "@add",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
