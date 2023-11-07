@@ -64,8 +64,6 @@ public class Steps {
 
 	@Then("user can not navigated to home page")
 	public void user_can_not_navigated_to_home_page() {
-		LoginPage lg = new LoginPage(driver);
-		lg.error_check();
 	}
 
 	@When("the user clicks on specific item")

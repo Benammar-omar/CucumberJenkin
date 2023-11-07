@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4421000000,
+              "duration": 11680000000,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 173000000,
+              "duration": 167000000,
               "status": "passed"
             },
             "line": 6,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1169000000,
+              "duration": 3334000000,
               "status": "passed"
             },
             "line": 7,
@@ -57,6 +57,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -68,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 2371000000,
+              "duration": 2530000000,
               "status": "passed"
             },
             "line": 9,
@@ -80,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 1865000000,
+              "duration": 2117000000,
               "status": "passed"
             },
             "line": 10,
@@ -105,11 +106,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-07T07:50:59.453Z",
+        "start_timestamp": "2023-11-07T09:58:18.825Z",
         "before": [
           {
             "result": {
-              "duration": 1661000000,
+              "duration": 1637000000,
               "status": "passed"
             },
             "match": {
@@ -136,7 +137,7 @@
         "steps": [
           {
             "result": {
-              "duration": 618000000,
+              "duration": 731000000,
               "status": "passed"
             },
             "line": 14,
@@ -148,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 45000000,
+              "duration": 52000000,
               "status": "passed"
             },
             "line": 15,
@@ -174,6 +175,215 @@
     "tags": [
       {
         "name": "@add",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-07T09:58:41.122Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1193000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitionSteps.Steps.browserSetup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "user-log-into-this-account;check-login-is-successful-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitionSteps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4492000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "definitionSteps.Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters benammaromar0@gmail.com and 00112233",
+            "match": {
+              "arguments": [
+                {
+                  "val": "benammaromar0@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "00112233",
+                  "offset": 40
+                }
+              ],
+              "location": "definitionSteps.Steps.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1358000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "definitionSteps.Steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user on the website",
+            "match": {
+              "location": "definitionSteps.Steps.user_on_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@log"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-07T09:58:48.328Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1212000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitionSteps.Steps.browserSetup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify login failed with invalid credentials",
+        "description": "",
+        "id": "user-log-into-this-account;verify-login-failed-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitionSteps.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2300000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on login page",
+            "match": {
+              "location": "definitionSteps.Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user try to enters test@test.com and test0011",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 19
+                },
+                {
+                  "val": "test0011",
+                  "offset": 37
+                }
+              ],
+              "location": "definitionSteps.Steps.user_try_to_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1289000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clicks on login button",
+            "match": {
+              "location": "definitionSteps.Steps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user can not navigated to home page",
+            "match": {
+              "location": "definitionSteps.Steps.user_can_not_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@log"
+          }
+        ]
+      }
+    ],
+    "name": "User log into this account",
+    "description": "",
+    "id": "user-log-into-this-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@log",
         "type": "Tag",
         "location": {
           "line": 1,
