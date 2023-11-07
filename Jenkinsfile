@@ -38,12 +38,9 @@ pipeline {
                 failedScenariosNumber: 1,
                 skippedStepsNumber: 1,
                 failedStepsNumber: 1,
-                classifications: [
-                        [key: 'Commit', value: '<a href="${GERRIT_CHANGE_URL}">${GERRIT_PATCHSET_REVISION}</a>'],
-                        [key: 'Submitter', value: '${GERRIT_PATCHSET_UPLOADER_NAME}']
-                ],
                 reportTitle: 'My report',
-                fileIncludePattern: '**/*cucumber-report.json',
+                fileIncludePattern: '**/*rapport.json',
+                jsonReportDirectory: 'target',
                 sortingMethod: 'ALPHABETICAL',
                 trendsLimit: 100
     }
